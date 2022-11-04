@@ -1,0 +1,17 @@
+theme = "bogster"
+
+[editor.lsp]                                                                    
+display-messages = true                                                        
+
+[keys.normal]                                                                  
+C-s = ":w"                                                                      
+C-o = ":open ~/.config/helix/config.toml" # Maps the Control-o to opening of the helix config file
+C-k = "goto_prev_paragraph"                                                    
+C-j = "goto_next_paragraph"                                                    
+C-n = ["search_selection", "search_next"]                                      
+C-p = ["search_selection", "search_prev"]                                      
+                 
+[editor.file-picker]                                                            
+hidden = false                                                                  
+ignore = false                                                                  
+git-ignore = false

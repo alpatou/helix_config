@@ -1,0 +1,9 @@
+[[language]]
+name = "rust"
+auto-format = true
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "toml"
+auto-format = true
+indent = { tab-width = 2, unit = "  " }
