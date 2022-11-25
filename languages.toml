@@ -3,6 +3,9 @@ name = "rust"
 auto-format = true
 indent = { tab-width = 2, unit = "  " }
 
+[language.config]
+checkOnSave = {command = "clippy"}
+
 [[language]]
 name = "toml"
 auto-format = true
